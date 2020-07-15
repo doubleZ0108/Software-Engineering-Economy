@@ -1,7 +1,5 @@
 # Software Engineering Economy
 
-[toc]
-
 ------
 
 ## Body of Knowledge
