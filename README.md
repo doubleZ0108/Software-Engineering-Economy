@@ -1,5 +1,18 @@
-1. Company Overview
+# Software Engineering Economy
 
+[toc]
+
+------
+
+## Body of Knowledge
+
+![BOK](BOK.png)
+
+<br/>
+
+## Table of Content
+
+1. Company Overview
 2. 1. Company Profile
 
    2. Market Analysis
@@ -24,9 +37,7 @@
       4. Sales
 
    9. Contract Management
-
 3. Budget
-
 4. 1. statement
 
    2. effort estimation
@@ -54,9 +65,7 @@
 
    10. 1. Equivalent principal
        2. Equal repayment of principal and interest (selected)
-
 5. Financial Evaluation
-
 6. 1. Pricing Strategy
 
    2. 1. Factors Affecting Pricing
@@ -79,9 +88,38 @@
    7. Profit & Loss Statement
 
    8. Balance Sheet
-
 7. Economic Evaluation
-
 8. 1. Break-Even analysis
    2. NPV, IRR and Paybackyear
    3. Sensitivity Analysis
+
+<br/>
+
+## Project Structure
+
+```python
+.
+├── BOK.png											# body of knowledge
+├── README.md
+├── doc													# document
+│   ├── Software Engineering Economy.pages
+│   └── Software Engineering Economy.pdf
+├── partition										# each parts
+│   ├── Budget
+│   │   └── Budget.md
+│   ├── Compony Overview
+│   │   └── Compony Overview.md
+│   ├── Economic Evaluation
+│   │   └── Economic Evaluation.md
+│   └── Financial Evaluation
+│       └── Financial Evaluation.md
+├── pre													# presentation
+│   ├── presentation.pdf
+│   └── script.pdf
+└── report											# economic report
+    └── Economic Report.pdf
+```
+
+<br/>
+
+## About the Author
