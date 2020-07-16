@@ -1,10 +1,29 @@
-## Budget
+# Budget
 
-[toc]
+##### Table of Contents
+
+* [2.1 Statement](#21-statement)
+* [2.2 Effort Estimation](#22-effort-estimation)
+   * [2.2.1 Function points estimation](#221-function-points-estimation)
+   * [2.2.2 Development Effort Estimation](#222-development-effort-estimation)
+   * [2.2.3 Operation and Maintenance Effort Estimation](#223-operation-and-maintenance-effort-estimation)
+* [2.3 Development Cost Estimation](#23-development-cost-estimation)
+   * [2.3.1 Direct Labor Cost Estimation](#231-direct-labor-cost-estimation)
+   * [2.3.2 Direct non-labor Cost Estimates](#232-direct-non-labor-cost-estimates)
+   * [2.3.3 Indirect Labor Cost Estimation](#233-indirect-labor-cost-estimation)
+   * [2.3.4 Indirect non-labor Cost Estimates](#234-indirect-non-labor-cost-estimates)
+   * [2.3.5 Total Development Cost Estimate](#235-total-development-cost-estimate)
+* [2.4 Operation and Maintenance Cost Estimation](#24-operation-and-maintenance-cost-estimation)
+   * [2.4.1 Labor Cost Estimation (direct   indirect)](#241-labor-cost-estimation-direct--indirect)
+   * [2.4.2 Non-labor Cost Estimates (direct   indirect)](#242-non-labor-cost-estimates-direct--indirect)
+* [2.5 Source of Budgets](#25-source-of-budgets)
+* [2.6 Repayment Strategies](#26-repayment-strategies)
+   * [2.6.1 Equivalent Principal](#261-equivalent-principal)
+   * [2.6.2 Equal Repayment of Principal and Interest: (selected)](#262-equal-repayment-of-principal-and-interest-selected)
 
 ------
 
-### 2.1 Statement
+## 2.1 Statement
 
 Before the content of the financial management document, we first explain our basic conditions and premises:
 
@@ -14,7 +33,7 @@ Before the content of the financial management document, we first explain our ba
 4. Apply for a loan at the beginning of the development process.
 5. The length of the recorded financial data is 4 years.
 
-### 2.2 Effort Estimation
+## 2.2 Effort Estimation
 
 ### 2.2.1 Function points estimation
 
@@ -67,7 +86,7 @@ We use **IFPUG standard** to analysis Function Points of our project, the steps 
    $$
    
 
-#### 2.2.2 Development Effort Estimation
+### 2.2.2 Development Effort Estimation
 
 1. Software scale estimation
 
@@ -158,7 +177,7 @@ $$
 
 
 
-#### 2.2.3 Operation and Maintenance Effort Estimation
+### 2.2.3 Operation and Maintenance Effort Estimation
 
 Based on China's software industry benchmark database for operation and maintenance cost estimation, it is also necessary to first estimate the scale, and then estimate the workload and expenses.
 
@@ -213,9 +232,9 @@ Subsequent calculations will use the 50th percentile workload of $0.872$ person-
 
 
 
-### 2.3 Development Cost Estimation
+## 2.3 Development Cost Estimation
 
-#### 2.3.1 Direct Labor Cost Estimation
+### 2.3.1 Direct Labor Cost Estimation
 
 The direct labor cost includes the human resources expenses such as the salaries, bonuses and benefits of the project team members of the developer. Among them, project members include all R&D or support personnel involved in the project's R&D process, such as project managers, requirements analysts, designers, developers, testers, deployers, user documentation writers, quality assurance personnel, configuration managers, etc. . For the part-time personnel engaged in the research and development of the project, the human resources cost is converted according to the proportion of the project workload in their total workload.
 
@@ -228,7 +247,7 @@ According to the industry monthly benchmark rate data, the average monthly rate 
 
 For insurance, the calculation is: **direct labor cost + indirect labor cost =** $195154$ *Yuan*. (No longer calculated after indirect labor cost)
 
-#### 2.3.2 Direct non-labor Cost Estimates
+### 2.3.2 Direct non-labor Cost Estimates
 
 Direct non-labor costs mainly include:
 
@@ -241,17 +260,17 @@ Direct non-labor costs mainly include:
 
 ![image-20200609221728482](Budget.assets/image-20200609221728482.png)
 
-#### 2.3.3 Indirect Labor Cost Estimation
+### 2.3.3 Indirect Labor Cost Estimation
 
 Indirect labor cost refers to the allocation of human resources costs of non-project team personnel who serve the overall needs of R&D management. Including the allocation of wages, bonuses, benefits, etc. of R&D department managers, project management office (PMO) personnel, engineering process group (EPG) personnel, product planners, organization-level quality assurance personnel, organization-level configuration management personnel, etc.
 
-#### 2.3.4 Indirect non-labor Cost Estimates
+### 2.3.4 Indirect non-labor Cost Estimates
 
 Indirect non-labor cost refers to the non-labor cost allocation that the developer does not incur for a specific project, but serves the overall R&D activities. Including the rent of the R&D site of the developer, water and electricity, and property, the allocation of the daily office expenses of the R&D personnel, and the rental, maintenance, and depreciation of various R&D office equipment.
 
 ![image-20200609222036024](Budget.assets/image-20200609222036024.png)
 
-#### 2.3.5 Total Development Cost Estimate
+### 2.3.5 Total Development Cost Estimate
 
 According to the calculation formula of software development cost:
 $$
@@ -275,15 +294,15 @@ $$
 
 
 
-### 2.4 Operation and Maintenance Cost Estimation
+## 2.4 Operation and Maintenance Cost Estimation
 
-#### 2.4.1 Labor Cost Estimation (direct + indirect)
+### 2.4.1 Labor Cost Estimation (direct + indirect)
 
 According to the benchmark data of the industry monthly rate, the average monthly rate in Shanghai is 23,593 yuan/pm. This data represents the median of the regional statistics (P50), which is 21.75 days in January. **Expenses include direct labor costs for software development, indirect labor costs, some indirect non-labor costs and reasonable profits, excluding direct non-labor costs**.
 
 For insurance, the calculation is: **direct labor cost + indirect labor cost =** $20573$ *Yuan*. (Workload during operation and maintenance period 0.872 person-months)
 
-#### 2.4.2 Non-labor Cost Estimates (direct + indirect)
+### 2.4.2 Non-labor Cost Estimates (direct + indirect)
 
 ![image-20200609222455700](Budget.assets/image-20200609222455700.png)
 
@@ -295,30 +314,24 @@ $$
 
 
 
-### 2.5 Source of Budgets
+## 2.5 Source of Budgets
 
 | source | Ourselves   | ICBC        | Game Company | Total       |
 | ------ | ----------- | ----------- | ------------ | ----------- |
 | Amount | ¥250,000.00 | ¥400,000.00 | ¥200,000.00  | ¥850,000.00 |
 | Type   | Originator  | Liability   | Shareholders |             |
 
-### 2.6 Repayment Strategies
+## 2.6 Repayment Strategies
 
 If you want to repay 400,000.00 yuan, and consider that the annual interest rate is 4.75% (medium and long-term loans: one to five years, including five years), which is equivalent to a monthly interest rate of 0.396%, and the plan is to pay off in three years. We can choose two repayment methods: equal principal repayment.
 
-#### 2.6.1 Equivalent Principal:
+### 2.6.1 Equivalent Principal
 
 For this method, the loan payment is equal to the sum of principal and interest. For fixed principal loans, the loan repayment amount will decrease during the loan term. The principal included in each payment remains unchanged, but the interest decreases during each payment period. The fixed principal loan plan is also called "fixed principal falling interest loan amortization plan".
 
 ![image-20200609210637012](Budget.assets/image-20200609210637012.png)
 
-
-
-
-
-
-
-#### 2.6.2 Equal Repayment of Principal and Interest: (selected)
+### 2.6.2 Equal Repayment of Principal and Interest: (selected)
 
 For this method, the repayment amount remains unchanged during the mortgage period. Each payment will reduce the principal, resulting in a reduction in interest payable. During the loan period, the payment amount is the same, but the payment method has changed: the portion of the payment applied to the principal increases with time, and the portion used for interest decreases because the principal owed is less.
 

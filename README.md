@@ -1,5 +1,13 @@
 # Software Engineering Economy
 
+##### Table of Contents
+
+   * [Software Engineering Economy](#software-engineering-economy)
+      * [Body of Knowledge](#body-of-knowledge)
+      * [Project Structure](#project-structure)
+      * [Table of Content](#table-of-content)
+      * [About the Author](#about-the-author)
+
 ------
 
 ## Body of Knowledge
@@ -8,116 +16,84 @@
 
 <br/>
 
+## Project Structure
+
+- `doc/`
+  - [Software Engineering Economy](https://github.com/doubleZ0108/Software-Engineering-Economy/blob/master/doc/Software%20Engineering%20Economy.pdf)
+- `pre/`
+  - [presentation](https://github.com/doubleZ0108/Software-Engineering-Economy/blob/master/pre/presentation.pdf)
+  - [script](https://github.com/doubleZ0108/Software-Engineering-Economy/blob/master/pre/script.pdf)
+- `partition/`
+
+<br/>
+
 ## Table of Content
 
-1. Company Overview
-2. 1. Company Profile
-
+1. [Company Overview](https://github.com/doubleZ0108/Software-Engineering-Economy/blob/master/partition/Compony%20Overview/Compony%20Overview.md)
+   1. Company Profile
    2. Market Analysis
 
-   3. 1. Feasibility Analysis
+      1. Feasibility Analysis
       2. Ecosystem Analysis
       3. Customer Analysis
-
-   4. Competition Analysis
-
-   5. 1. Competitive Advantages
+   3. Competition Analysis
+      1. Competitive Advantages
       2. Competitive Disadvantages
       3. Competition Analysis Form
-
-   6. Assumption & Prerequisites
-
-   7. Operation Plan
-
-   8. 1. Product
+   4. Assumption & Prerequisites
+   5. Operation Plan
+      1. Product
       2. Office Environment
       3. Personnel
       4. Sales
-
-   9. Contract Management
-3. Budget
-4. 1. statement
-
+   6. Contract Management
+2. [Budget](https://github.com/doubleZ0108/Software-Engineering-Economy/blob/master/partition/Budget/Budget.md)
+   1. statement
    2. effort estimation
-
-   3. 1. Function points estimation
+      1. Function points estimation
       2. Develpment effort estimation
       3. Operation and maintenance effort estimation
-
-   4. Development cost estimation
-
-   5. 1. Direct labor cost estimation
+   3. Development cost estimation
+      1. Direct labor cost estimation
       2. Direct non-labor cost estimation
       3. Indirect labor cost estimation
       4. Indirect non-labor cost estimation
       5. Total development cost estimation
-
-   6. Operation and maintenance cost estimation
-
-   7. 1. Labor cost estimation (direct + indirect)
+   4. Operation and maintenance cost estimation
+      1. Labor cost estimation (direct + indirect)
       2. Non-labor cost estimation (direct + indirect)
-
-   8. source of budgets
-
-   9. repayment strategies
-
-   10. 1. Equivalent principal
+   5. source of budgets
+   6. repayment strategies
+      1. Equivalent principal
        2. Equal repayment of principal and interest (selected)
-5. Financial Evaluation
-6. 1. Pricing Strategy
-
-   2. 1. Factors Affecting Pricing
+3. [Financial Evaluation](https://github.com/doubleZ0108/Software-Engineering-Economy/blob/master/partition/Financial%20Evaluation/Financial%20Evaluation.md)
+   1. Pricing Strategy
+      1. Factors Affecting Pricing
       2. Six Steps for Pricing Decision
       3. Determine the Final Price Strategy
-
-   3. Cash flow
-
-   4. 1. Statements of Cash Flow
+   2. Cash flow
+      1. Statements of Cash Flow
       2. 12 Month Cash Flow of 2020
       3. 12 Month Cash Flow of 2021
       4. 12 Month Cash Flow of 2022
       5. Project Cash Flow in 3 years
-
-   5. Depreciation & Amortization
-
-   6. 1. Depreciation
+   3. Depreciation & Amortization
+      1. Depreciation
       2. Amortization
-
-   7. Profit & Loss Statement
-
-   8. Balance Sheet
-7. Economic Evaluation
-8. 1. Break-Even analysis
+   4. Profit & Loss Statement
+   5. Balance Sheet
+4. [Economic Evaluation](https://github.com/doubleZ0108/Software-Engineering-Economy/blob/master/partition/Economic%20Evaluation/Economic%20Evaluation.md)
+   1. Break-Even analysis
    2. NPV, IRR and Paybackyear
    3. Sensitivity Analysis
 
 <br/>
 
-## Project Structure
-
-```python
-.
-├── BOK.png											# body of knowledge
-├── README.md
-├── doc													# document
-│   ├── Software Engineering Economy.pages
-│   └── Software Engineering Economy.pdf
-├── partition										# each parts
-│   ├── Budget
-│   │   └── Budget.md
-│   ├── Compony Overview
-│   │   └── Compony Overview.md
-│   ├── Economic Evaluation
-│   │   └── Economic Evaluation.md
-│   └── Financial Evaluation
-│       └── Financial Evaluation.md
-├── pre													# presentation
-│   ├── presentation.pdf
-│   └── script.pdf
-└── report											# economic report
-    └── Economic Report.pdf
-```
-
-<br/>
-
 ## About the Author
+
+| Name                            | Email                 |
+| ------------------------------- | --------------------- |
+| Zhe ZHANG<sup>Team Leader</sup> | dbzdbz@tongji.edu.cn  |
+| Kaixin CHEN                     | 1753188@tongji.edu.cn |
+| Di BU                           | 1753414@tongji.edu.cn |
+

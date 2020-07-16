@@ -1,6 +1,22 @@
 # Financial Evaluation
 
-[toc]
+##### Table of Contents
+
+* [Pricing Strategy](#pricing-strategy)
+   * [Factors Affecting Pricing](#factors-affecting-pricing)
+   * [Six Steps For Pricing Decision](#six-steps-for-pricing-decision)
+   * [Determine the Final Price Strategy](#determine-the-final-price-strategy)
+* [Cash Flow](#cash-flow)
+   * [Statements of Cash Flow](#statements-of-cash-flow)
+   * [12 Month Cash Flow of 2020](#12-month-cash-flow-of-2020)
+   * [12 Month Cash Flow of 2021](#12-month-cash-flow-of-2021)
+   * [12 Month Cash Flow of 2022](#12-month-cash-flow-of-2022)
+   * [Project Cash Flow in 3 years](#project-cash-flow-in-3-years)
+* [Depreciation &amp; Amortization](#depreciation--amortization)
+   * [Depreciation](#depreciation)
+   * [Amortization](#amortization)
+* [Profit &amp; Loss Statement](#profit--loss-statement)
+* [Balance Sheet](#balance-sheet)
 
 ## Pricing Strategy
 
