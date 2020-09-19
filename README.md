@@ -1,12 +1,9 @@
 # Software Engineering Economy
 
-##### Table of Contents
-
-   * [Software Engineering Economy](#software-engineering-economy)
-      * [Body of Knowledge](#body-of-knowledge)
-      * [Project Structure](#project-structure)
-      * [Table of Content](#table-of-content)
-      * [About the Author](#about-the-author)
+* [Body of Knowledge](#body-of-knowledge)
+* [Project Structure](#project-structure)
+* [Table of Content](#table-of-content)
+* [About the Author](#about-the-author)
 
 ------
 
